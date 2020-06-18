@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Anton', sans-serif
+}
+/* styling for header */
+nav{
+    /* background-color: crimson; */
+    /* using color hunt for more color */
+    background-color: #e8e4e1;
+    /* font color to black */
+    color: black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+}
+.logo{
+    margin: 35px;
+}
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+/* styling for main */
+.main{
+    /* background-color: cornflowerblue; */
+    height: 75%;
+    text-align: center; 
+    padding-top: 10%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
